@@ -71,7 +71,7 @@ const _slideDua = function () {
         _slideTiga();
       }, 1000);
     })
-  }, 40000);
+  }, 35000);
 };
 
 const _slideTiga = function () {
@@ -90,7 +90,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 43000);
+  }, 35000);
 }
 
 function getRandomPosition(element) {
@@ -156,14 +156,14 @@ const _slideEnam = function () {
 new TypeIt("#teks1", {
   strings: ["Hari ini, saya langitkan semua doa terbaik saya untuk kamu.", "Semoga hal-hal yang membuat kamu runtuh turut menjadi alasan kamu untuk tetap tumbuh.", "Semoga dunia senantiasa menjaga kamu dimanapun kamu berada.", "Semoga hari-hari kamu selalu diiringi cinta yang tak pernah ada batasnya." , "Semoga setiap langkahmu dimudahkan hingga tercapai apa yang kamu inginkan."],
   startDelay: 4000,
-  speed: 75,
+  speed: 55,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
   strings: ["Dengan ataupun tanpaku, semoga semesta selalu membahagiakan kamu bagimanapun caranya.", " ", "barakallah fi umrik, terima kasih sudah bertahan sampai sejauh ini.", " ", "- Wish all you the best"],
   startDelay: 2000,
-  speed: 75,
+  speed: 55,
   waitUntilVisible: true
 }).go();
 
@@ -171,7 +171,7 @@ new TypeIt("#teks2", {
 new TypeIt("#trims", {
   strings: ["Terimakasih."],
   startDelay: 2000,
-  speed: 150,
+  speed: 85,
   loop: false,
   waitUntilVisible: true,
 }).go();
@@ -446,3 +446,4 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
