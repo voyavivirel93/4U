@@ -110,7 +110,7 @@ html {
   background: transparent;
   color: #3f3f44;
   font-family: 'Handlee', cursive;
-  font-size: 18px;
+  font-size: 16px;
   box-sizing: border-box;
   z-index: 1;
 }
@@ -179,3 +179,4 @@ body {
   padding: 0;
   text-align: center;
 }
+
